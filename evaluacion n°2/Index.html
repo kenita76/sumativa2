@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INACAPLudi - Club de Juegos</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Fondo violeta */
+        body {
+            background-color: violet;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>¡Descubre la Emoción de los Juegos de Mesa y de Rol en INACAPLudi!</h1>
+        <img src="juegos.jpg" alt="Juegos de Mesa y de Rol">
+    </header>
+    <main>
+        <section id="about">
+            <h2>Sobre Nosotros</h2>
+            <p>En INACAPLudi, nos dedicamos a reunir a estudiantes y entusiastas de todas las sedes para compartir nuestra pasión por los juegos, la estrategia y la creatividad. Contamos con espacios para partidas, una ludoteca llena de juegos y libros, eventos locales e inter-sedes, charlas y talleres para toda la comunidad. Todos son bienvenidos a unirse a nuestra comunidad inclusiva y diversa.</p>
+        </section>
+        <section id="benefits">
+            <h2>Beneficios de unirse al Club</h2>
+            <ul>
+                <li>Acceso ilimitado a nuestra biblioteca de juegos y recursos educativos.</li>
+                <li>Oportunidad de participar en eventos emocionantes locales e inter-sedes.</li>
+                <li>Comunidad inclusiva y diversa donde todos son bienvenidos.</li>
+            </ul>
+        </section>
+        <section id="join">
+            <h2>¡Únete al Club Ahora!</h2>
+            <p>Completa el formulario a continuación para recibir más información sobre cómo unirte al club y acceder a todos nuestros beneficios exclusivos.</p>
+            <form action="procesar_formulario.php" method="post">
+                <input type="text" name="nombre" placeholder="Nombre" required>
+                <input type="email" name="email" placeholder="Correo Electrónico" required>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 INACAPLudi - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>

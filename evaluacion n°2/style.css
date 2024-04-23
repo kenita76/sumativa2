@@ -1,0 +1,75 @@
+/* Reset de estilos */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(238, 130, 220); /* Fondo violeta */
+    color: #fff; /* Texto blanco */
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    background-color: #330066; /* Fondo púrpura oscuro */
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #64106034; /* Fondo púrpura oscuro */
+    color: #fff; /* Texto blanco */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5500ff; /* Cambio de color al pasar el ratón */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #330066; /* Fondo púrpura oscuro */
+    color: #fff; /* Texto blanco */
+}
